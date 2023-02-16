@@ -1,13 +1,15 @@
 :root {
     --accent-color: #434455 ;
     --title-text-color: #2E2F42;
-    --button: #4D5AE5;
+    --button: #E7E9FC;
+    --focus: #404BBF;
+      
 
 }
 
-.page {
+body {
     background-color: #FFFFFF;
-    color: ;
+    font-family: roboto, sans serif;
 }
 
 .logo,
@@ -15,20 +17,63 @@
     color: var(--accent-color);
     font-size: 18px;
     text-decoration: none;
+    font-family: Raleway, sans serif;
+    text-transform: uppercase;
 }
 
 /*site nav*/
 .site-nav .link {
     color: var(--title-text-color);
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 .auth-site .link {
     color: var(--accent-color);
     text-decoration: none;
     font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
 }
 
+/*filters*/
+
+button {
+    color: #4D5AE5;
+    background-color: var(--button);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5px;
+    padding: 16px 32px;
+    border: none;
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: var(--focus);
+    color: white;
+}
+
+
+
+/*section1*/
 ul {
     list-style: none;
+}
+h3 {
+    color: var(--title-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+p {
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
