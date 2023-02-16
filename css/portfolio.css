@@ -1,0 +1,34 @@
+:root {
+    --accent-color: #434455 ;
+    --title-text-color: #2E2F42;
+    --button: #4D5AE5;
+
+}
+
+.page {
+    background-color: #FFFFFF;
+    color: ;
+}
+
+.logo,
+.footer-logo {
+    color: var(--accent-color);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/*site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+
+}
+.auth-site .link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
