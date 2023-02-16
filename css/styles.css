@@ -5,7 +5,7 @@
 
 }
 
-.page {
+body {
     background-color: #FFFFFF;
     font-family: roboto, sans serif;
     font-size: 16px;
@@ -50,6 +50,7 @@ ul {
     font-weight: 700;
     line-height: 1,07;
     font-size: 56px;
+    color: white;
 }
 
 /*section1*/
@@ -92,7 +93,7 @@ p {
     border: none;
     font-family: roboto, sans-serif;
     letter-spacing: 0.04em;
-    
+    font-weight: 500;
 }
 
 
