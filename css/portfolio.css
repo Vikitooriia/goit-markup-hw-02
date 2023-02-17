@@ -3,22 +3,28 @@
     --title-text-color: #2E2F42;
     --button: #E7E9FC;
     --focus: #404BBF;
+    --logo:#4D5AE5;
+    --background-color: #F4F4FD;
       
 
 }
 
 body {
     background-color: #FFFFFF;
-    font-family: roboto, sans serif;
+    font-family: roboto, sans-serif;h
+    color: var(--title-text-color);
+    line-height: 1.5;
 }
 
-.logo,
-.footer-logo {
+.logo {
     color: var(--accent-color);
     font-size: 18px;
     text-decoration: none;
-    font-family: Raleway, sans serif;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
+}
+span {
+    color: var(--logo);
 }
 
 /*site nav*/
@@ -37,6 +43,10 @@ body {
     font-weight: 400;
 }
 
+.link:hover,
+.link:focus {
+    color:#4D5AE5;   
+}
 /*filters*/
 
 button {
@@ -45,15 +55,16 @@ button {
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5px;
+    line-height: 1.5px;
     padding: 16px 32px;
     border: none;
-    font-family: roboto, sans-serif;
+    font-family: inherit;
     letter-spacing: 0.04em;
     cursor: pointer;
     
 }
-button:hover {
+button:hover,
+button:focus {
     background-color: var(--focus);
     color: white;
 }
@@ -61,18 +72,52 @@ button:hover {
 
 
 /*section1*/
-ul {
+.hidden-title {
+    visibility: hidden;
+}
+
+.site-nav,
+.auth-site,
+.filters,
+.pic-items {
     list-style: none;
 }
-h3 {
+
+.header-desc {
     color: var(--title-text-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
 
 }
-p {
+
+.desc {
     color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/*footer*/
+.footer-section {
+    background-color: var(--title-text-color);
+    width: 1440px;
+    height: 410px;
+}
+
+.footer-logo {
+    color: var(--background-color);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.34;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slogan {
+    color: #E7E9FC;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
