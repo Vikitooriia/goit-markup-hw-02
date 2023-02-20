@@ -65,10 +65,9 @@ body {
 /*hero*/
 .hero {
     background-color: var(--title-text-color);
-    width: 1440px;
-    height: 600px;
 }
-.hero-title{
+
+.hero-title {
     font-weight: 700;
     line-height: 1.07;
     font-size: 56px;
@@ -86,15 +85,25 @@ body {
     font-size: 36px;
     line-height: 1.12;
 }
-.hidden-title {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features > li > h3 {
      color: var(--title-text-colorvar) ;
 }
 
-.header-desc {
+.team-header,
+.feature-header {
     color: var(--title-text-color) ;  
     font-family: inherit;
     font-size: 20px;
@@ -109,11 +118,8 @@ body {
     line-height: 1.5;
 }
 
-.team {
+.section-team {
     background-color: var(--background-color);
-    width: 1440px;
-    height: 732px;
-    display: flex;
 }
 
 /*button*/
@@ -137,8 +143,6 @@ span {
 /*footer*/
 .footer-section {
     background-color: var(--title-text-color);
-    width: 1440px;
-    height: 410px;
 }
 .footer-logo {
     color: var(--background-color);

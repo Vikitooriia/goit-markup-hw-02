@@ -72,8 +72,17 @@ button:focus {
 
 
 /*section1*/
-.hidden-title {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .site-nav,
@@ -100,8 +109,6 @@ button:focus {
 /*footer*/
 .footer-section {
     background-color: var(--title-text-color);
-    width: 1440px;
-    height: 410px;
 }
 
 .footer-logo {
