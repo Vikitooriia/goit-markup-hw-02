@@ -11,7 +11,7 @@
 
 body {
     background-color: #FFFFFF;
-    font-family: roboto, sans-serif;h
+    font-family: roboto, sans-serif;
     color: var(--title-text-color);
     line-height: 1.5;
 }
@@ -40,7 +40,6 @@ span {
     text-decoration: none;
     font-style: normal;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .link:hover,
@@ -102,10 +101,9 @@ button:focus {
 
 .desc {
     color: var(--accent-color);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+   
 }
+
 /*footer*/
 .footer-section {
     background-color: var(--title-text-color);

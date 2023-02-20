@@ -42,17 +42,12 @@ body {
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-
 }
+
 .auth-site .link {
     color: var(--accent-color);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
 }
 
 .link:hover,
@@ -98,9 +93,6 @@ body {
     overflow: hidden;
 }
 
-.features > li > h3 {
-     color: var(--title-text-colorvar) ;
-}
 
 .team-header,
 .feature-header {
@@ -112,10 +104,7 @@ body {
 }
 .desc {
     color: var(--accent-color);
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+    
 }
 
 .section-team {
@@ -137,6 +126,12 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
 span {
     color: var(--button);
 }
