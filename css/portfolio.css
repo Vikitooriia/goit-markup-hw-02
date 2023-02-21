@@ -55,13 +55,15 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5px;
-    padding: 16px 32px;
+    padding: 12px 24px;
     border: none;
     font-family: inherit;
     letter-spacing: 0.04em;
     cursor: pointer;
-    
+    display: inline-block;
+    text-align: center;
 }
+
 button:hover,
 button:focus {
     background-color: var(--focus);
